@@ -1,0 +1,18 @@
+package com.wtc.pureit.api.helper;
+
+public enum NetSuiteScriptType {
+
+    LEAD,
+    ORDER_CREATION,
+    ORDER_STATUS,
+    ORDER_CANCELLATION,
+    EXISTING_CUSTOMER,
+    CUSTOMER_CREATE,
+    CUSTOMER_STATUS,
+    UPDATE_CUSTOMER_ADDRESS,
+    INVOICE,
+    SALES,
+    COMPLAINT_CREATE,
+    COMPLAINT_STATUS;
+
+}
